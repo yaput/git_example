@@ -11,4 +11,4 @@ def test_simple_process():
 def test_unhappy_simple_process():
     first = 5
     second = 2
-    assert simple_process(5, 2, "negate") != 12
+    assert simple_process(5, 2, "negate") == 12
